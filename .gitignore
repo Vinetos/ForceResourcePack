@@ -29,5 +29,5 @@ manifest.mf
 *.iml
 *.ipr
 *.iws
-.idea/
+.idea/*.xml
 src/test/
