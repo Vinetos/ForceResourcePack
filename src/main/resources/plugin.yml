@@ -1,0 +1,8 @@
+name: ${project.artifactId}
+author: Vinetos
+main: fr.vinetos.frp.ForceResourcePack
+version: ${project.version}
+commands:
+  forceresourcepack:
+    description: 'Default command of the plugin'
+    aliases: [frp]

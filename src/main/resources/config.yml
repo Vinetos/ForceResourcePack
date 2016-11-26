@@ -1,0 +1,25 @@
+# If you set to true , the default resource pack (pack: xxxxx) to be sent to player when it be connected to the server
+join-enabled: true
+# If you set to true, the player will be kicked from server if the download failed or the resource pack is refused
+kick: true
+# Enable multi-world support
+multi-worlds: true
+# Resources Pack to be sent to player when it be connected to the server if 'join-enabled: true'
+join-pack: 'faithfull'
+# Enable the bypass (perm: frp.bypass) when connection or command
+bypass: false
+# This messages are used for kick's messages.'
+messages:
+  failed: '&cOh, something was wrong... the download has failed... Try again !'
+  declined: '&cYou need to accepte the resource pack !'
+  accepted: '&aYou have accepted the request. Download in progress...'
+  no-response: '&cYou need to have the resource pack !'
+  success: '&aPack downloaded successfully'
+# Pack's group (ex: /frp <Player> <myPack/faithfull/...> )
+packs:
+  myPack: 'http://www.myWebSite.com/downloads/myPack.zip'
+  faithfull: 'http://www.faithful32x32.com/dl/faithful32pack.zip'
+# Resource pack to be sent when a player exchange world if 'multi-worlds: true'
+worlds:
+  world: 'faithfull'
+  new_world: 'myPack'
