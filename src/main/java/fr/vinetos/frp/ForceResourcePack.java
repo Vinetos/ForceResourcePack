@@ -75,6 +75,7 @@ public class ForceResourcePack extends JavaPlugin {
      */
     private enum MINECRAFT_VERSION {
 
+        V1_12(12, "v1_12"),
         V1_11(11, "v1_11"),
         v1_10(10, "v1_10"),
         v1_9(9, "v1_9"),
